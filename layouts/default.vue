@@ -1,21 +1,15 @@
 <script setup lang="ts">
-const title = ref("Next-kit - Nuxt3 Typescript Free UI kit built with Vuetify3");
-useHead({
-  meta: [{ content: title }],
-  titleTemplate: (titleChunk) => {
-    return titleChunk
-      ? `${titleChunk} - Nuxt3 Typescript Free UI kit built with Vuetify3`
-      : "Next-kit - Nuxt3 Typescript Free UI kit built with Vuetify3";
-  },
-});
+
+import Header from '@/components/section/header/Header-Yuri.vue';
+
 </script>
 
 <template>
   <v-app dark>
-    <LcHeader/>
+    <Header/>
     <v-main>
       <slot />  
     </v-main>
-    <LcFooter/>
+    <!-- <LcFooter/> -->
   </v-app>
 </template>
