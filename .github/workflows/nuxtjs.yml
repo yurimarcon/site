@@ -31,20 +31,17 @@ jobs:
         run: npm install
 
       - name: Generate static files
-        run: npm run generate
-
-      - name: Debug Generate
         run: |
-          echo "Listing current directory:"
+          npm run generate
+          echo "Generation step completed."
           ls -la
-          echo "Listing dist directory:"
-          ls -la ./dist || echo "dist directory not found"
+          ls -la .output/public || echo ".output/public directory not found"
 
       - name: Upload artifact
         if: success()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: .output/public
 
   deploy:
     environment:
