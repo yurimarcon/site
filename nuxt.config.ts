@@ -22,6 +22,10 @@ export default defineNuxtConfig({
     devServerHandlers: [],
     hooks: {
     },
+    target: 'static',
+    router: {
+      base: '/nuxtjs-uikit'
+    },
   
   })
 
