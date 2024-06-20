@@ -11,7 +11,7 @@ const drawer = ref(null);
       <v-container class="fill-height">
         <v-toolbar class="bg-transparent d-flex align-center">
           <!-- Logo -->
-          <LcLogoWhiteTextLogo />
+          <!-- <LcLogoWhiteTextLogo /> -->
           <!-- Desktop view Navigation -->
           <div
             class="navigation ml-auto d-lg-block"

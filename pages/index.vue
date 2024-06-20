@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import MainBanner from '@/components/section/banner/MainBanner.vue';
-import CommingSoon from '@/components/shared/coming-soon/ComingSoon.vue';
-import AllCustomComponents from '@/components/section/AllCustomComponents.vue';
+import MainBanner from '@/components/section/banner/YuriMainBanner.vue';
 </script>
 
 <template>
@@ -10,8 +8,8 @@ import AllCustomComponents from '@/components/section/AllCustomComponents.vue';
     <!-------Banner-------->
     <MainBanner />
     <!-------All Components-------->
-    <AllCustomComponents/>
+    <!-- <AllCustomComponents/> -->
     <!----Commingsoon ----->
-    <CommingSoon/>
+    <!-- <CommingSoon/> -->
   </div>
 </template>
