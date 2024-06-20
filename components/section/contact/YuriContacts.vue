@@ -66,13 +66,15 @@ import {socialMedias} from '@/data/YuriData';
                   </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">
-                  <v-btn
-                    block
-                    class="linking bg-info feature2-action-btn mt-sm-0 mt-n5'"
-                    :disabled="!card.href"
-                  >
-                    Clique me <i class="mdi mdi-arrow-right"></i>
-                  </v-btn>
+                  <a :href="card.href" target="_blank" class="text-decoration-none">
+                    <v-btn
+                      block
+                      class="linking bg-info feature2-action-btn mt-sm-0 mt-n5'"
+                      :disabled="!card.href"
+                    >
+                      Clique me <i class="mdi mdi-arrow-right"></i>
+                    </v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </v-card>
