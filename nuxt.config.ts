@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     },
     target: 'static',
     router: {
-      base: '/nuxtjs-uikit'
+      base: '/nuxtjs-uikit/'
     },
   
   })
