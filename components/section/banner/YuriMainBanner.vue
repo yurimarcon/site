@@ -20,7 +20,7 @@
                   size="large"
                   flat
                 >
-                   <NuxtLink to="/courses" class="text-decoration-none  text-white">
+                   <NuxtLink to="/courses" class="text-decoration-none text-white">
                     Cursos
                    </NuxtLink>
                 </v-btn>
