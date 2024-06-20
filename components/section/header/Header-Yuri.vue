@@ -13,7 +13,7 @@ const drawer = ref(null);
         <v-toolbar>
         <!-- Logo -->
         <div class="logo">
-            <LcLogoWhiteLogo/>
+            <!-- <LcLogoWhiteLogo/> -->
         </div>
         <!-- Desktop view Navigation -->
         <div
