@@ -22,11 +22,5 @@ export default defineNuxtConfig({
   hooks: {
   },
   target: 'static',
-  router: {
-    base: '/nuxtjs-uikit/'
-  },
-  app: {
-    baseURL: '/nuxtjs-uikit/'
-  ,
-  publicPath: (__dirname, "/nuxtjs-uikit/"),}
+  publicPath: (__dirname, "/nuxtjs-uikit/"),
 })
