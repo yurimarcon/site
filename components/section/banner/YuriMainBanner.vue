@@ -39,7 +39,7 @@
           </v-col>
           <v-col cols="12" sm="5" lg="6">
             <img
-              src="/images/landingpage/banner-img.png"
+              src="/site/images/landingpage/banner-img.png"
               alt="banner" class="img-fluid"
             />
           </v-col>

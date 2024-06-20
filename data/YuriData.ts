@@ -16,7 +16,7 @@ const headerMenu = [
   
   const Courses =[
     {
-        img: "vue-vuetify.png",
+        img: "/site/images/courses/vue-vuetify.png",
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
         href: "https://www.udemy.com/course/curso-front-end-developer-vue/?referralCode=0851F9D9DED62D34989A",
         author: "Yuri Marcon",
@@ -27,7 +27,7 @@ const headerMenu = [
         promotePrice: "R$24,90"
     },
     {
-        img: "git-github.png",
+        img: "/site/images/courses/git-github.png",
         title: "Git e Github para Desenvolvedores - Básico ao Avançado",
         href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=JUNHO2024",
         author: "Yuri Marcon",
@@ -41,7 +41,7 @@ const headerMenu = [
 
   const Testimonials = [
     {
-      img: "user.png",
+      img: "/site/images/courses/user.png",
       testimonial:
         "Instrutor bem objetivo nos conceitos.",
       name: "DANIELE",
@@ -54,7 +54,7 @@ const headerMenu = [
       ],
     },
     {
-      img: "user.png",
+      img: "/site/images/courses/user.png",
       testimonial:
         "muito bom. Curso direto, rápido, sem enrolação com um ótimo suporte do professor.",
       name: "SILVANA",
@@ -67,7 +67,7 @@ const headerMenu = [
       ],
     },
     {
-      img: "user.png",
+      img: "/site/images/courses/user.png",
       testimonial:
         "Parabéns Professor, bem explicativo! Estou aprendendo bastante.",
       name: "EDUARDO",

@@ -23,9 +23,14 @@ export default defineNuxtConfig({
   },
   target: 'static',
   router: {
-    base: '/nuxtjs-uikit/'
+    base: '/site/'
   },
   app: {
-    baseURL: '/nuxtjs-uikit/',
-  }
+    baseURL: '/site/',
+  },
+  runtimeConfig: {
+    public: {
+      baseURL: '/site/',
+    },
+  },
 })

@@ -42,7 +42,7 @@ const drawer = ref(null);
             </ul>
           </div>
           <!-- login-regiter -->
-          <a href="/contact" class="text-decoration-none">
+          <a href="/site/contact" class="text-decoration-none">
            <v-btn
              class="btn px-6 bg-primary ml-2 d-md-flex d-none"
              flat
@@ -79,7 +79,7 @@ const drawer = ref(null);
             }}</NuxtLink>
           </li>
           <li class="nav-item mx-3 mt-4 ">
-            <a href="/contact" class="text-decoration-none">
+            <a href="/site/contact" class="text-decoration-none">
                 <v-btn
                   class="btn bg-primary-light "
                   flat block

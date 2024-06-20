@@ -39,7 +39,7 @@ import {Testimonials} from '@/data/YuriData';
               <v-card-actions class="pl-10">
                 <div class="d-flex align-center">
                   <v-avatar size="60">
-                    <img :src="`/images/courses/${card.img}`" :alt="card.img" height="60"/>    
+                    <img :src="card.img" :alt="card.img" height="60"/>    
                   </v-avatar>         
                   <div class="ml-5">
                     <h6 class="text-uppercase font-weight-medium font-14">
