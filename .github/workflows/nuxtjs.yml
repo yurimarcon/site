@@ -35,13 +35,13 @@ jobs:
           npm run generate
           echo "Generation step completed."
           ls -la
-          ls -la .output/public || echo ".output/public directory not found"
+          ls -la || echo "dist/ directory not found"
 
       - name: Upload artifact
         if: success()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist
 
   deploy:
     environment:
