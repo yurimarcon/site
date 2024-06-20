@@ -27,6 +27,6 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/nuxtjs-uikit/',
-  }
+  },
   publicPath: (__dirname, "/nuxtjs-uikit/"),
 })
