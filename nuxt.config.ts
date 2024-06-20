@@ -32,6 +32,6 @@ export default defineNuxtConfig({
     public: {
       baseURL: '/site/',
     },
-  }
+  },
   baseUrl: '/site/'
 })
