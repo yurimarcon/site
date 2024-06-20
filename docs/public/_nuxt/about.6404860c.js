@@ -1,1 +1,0 @@
-import{M as a,_ as e}from"./AllCustomComponents.vue.34cadcb9.js";import{C as n}from"./ComingSoon.84b7ef1a.js";import{a as r,f as t,b as o,o as m}from"./entry.6aa08d5e.js";import"./banner-img.c5914ee7.js";const u=r({__name:"about",setup(s){return(_,c)=>(m(),t("div",null,[o(a),o(e),o(n)]))}});export{u as default};

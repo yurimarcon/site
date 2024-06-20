@@ -1,1 +1,0 @@
-import{E as o}from"./Banner404.72598536.js";import{a,r as t,c as n,w as r,o as s,b as c}from"./entry.6aa08d5e.js";const f=a({__name:"404",setup(_){return(m,p)=>{const e=t("v-main");return s(),n(e,null,{default:r(()=>[c(o)]),_:1})}}});export{f as default};
