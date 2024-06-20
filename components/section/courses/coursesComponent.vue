@@ -42,7 +42,7 @@ import {Courses} from '@/data/YuriData'
             target="_blank"
             >
               <div class="portfolio-img">
-                <img :src="`/images/courses/${card.img}`" class="img-fluid" :alt="card.img" />
+                <img :src="card.img" class="img-fluid" :alt="card.img" />
               </div>
               <v-card-text class="pa-5">
                 <h5 class="font-weight-medium font-18">{{ card.title }}</h5>
