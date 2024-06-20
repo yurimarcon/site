@@ -21,17 +21,17 @@ export default defineNuxtConfig({
   devServerHandlers: [],
   hooks: {
   },
-  target: 'static',
-  router: {
-    base: '/site/'
-  },
-  app: {
-    baseURL: '/site/',
-  },
-  runtimeConfig: {
-    public: {
-      baseURL: '/site/',
-    },
-  },
-  baseUrl: '/site/'
+  // target: 'static',
+  // router: {
+  //   base: '/site/'
+  // },
+  // app: {
+  //   baseURL: '/site/',
+  // },
+  // runtimeConfig: {
+  //   public: {
+  //     baseURL: '/site/',
+  //   },
+  // },
+  // baseUrl: '/site/'
 })

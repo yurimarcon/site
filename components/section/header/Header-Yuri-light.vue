@@ -2,7 +2,17 @@
 import { ref } from "vue";
 import { headerMenu } from "@/data/YuriData";
 const drawer = ref(null);
+
+
+import { useTheme } from 'vuetify'
+
+const theme = useTheme()
+
+function toggleTheme () {
+  theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
+}
 </script>
+
 <template>
   <div>
     <!-- -----------------------------------------------
@@ -47,7 +57,7 @@ const drawer = ref(null);
              class="btn px-6 bg-primary ml-2 d-md-flex d-none"
              flat
            >
-               Contato
+               Contatooo
            </v-btn>
          </a>
           <v-app-bar-nav-icon
