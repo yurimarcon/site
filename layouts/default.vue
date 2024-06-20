@@ -10,6 +10,6 @@ import Header from '@/components/section/header/Header-Yuri.vue';
     <v-main>
       <slot />  
     </v-main>
-    <!-- <LcFooter/> -->
+    <LcFooter/>
   </v-app>
 </template>
