@@ -24,7 +24,7 @@
                     Cursos
                    </NuxtLink>
                 </v-btn>
-                <v-btn
+                <!-- <v-btn
                   size="large"
                   to="/about"
                   class="btn-custom-md d-sm-flex d-block"
@@ -33,7 +33,7 @@
                   flat
                 >
                   Sobre
-                </v-btn>
+                </v-btn> -->
               </div>
             </div>
           </v-col>

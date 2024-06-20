@@ -1,14 +1,10 @@
-<script setup lang="ts">
-import { ref } from "vue";
+<script setup>
 import {Courses} from '@/data/YuriData'
 </script>
 <template>
   <div>
     <div class="">
       <v-container>
-        <!-- -----------------------------------------------
-            Start Courses Text
-        ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
@@ -21,13 +17,6 @@ import {Courses} from '@/data/YuriData'
             </div>
           </v-col>
         </v-row>
-
-        <!-- -----------------------------------------------
-            End Courses Text
-        ----------------------------------------------- -->
-        <!-- -----------------------------------------------
-            Start Courses
-        ----------------------------------------------- -->
         <v-row class="mt-8">
           <v-col
             cols="12"
@@ -47,9 +36,7 @@ import {Courses} from '@/data/YuriData'
               <v-card-text class="pa-5">
                 <h5 class="font-weight-medium font-18">{{ card.title }}</h5>
                 <p class="font-14 mb-0 text-muted">{{ card.author }}</p>
-
-
-
+                
                 <v-row
                 align="center"
                 class="mx-0"
@@ -75,19 +62,15 @@ import {Courses} from '@/data/YuriData'
                     variant="tonal" 
                     class="text-disabled text-decoration-line-through font-weight-black"
                     > 
-                      R$189,90 
+                      {{card.price}}
                     </v-btn>
                   </div>
                 </v-row>
-  
-
+        
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
-        <!-- -----------------------------------------------
-            End Courses
-        ----------------------------------------------- -->
       </v-container>
     </div>
   </div>
