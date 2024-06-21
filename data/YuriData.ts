@@ -21,7 +21,7 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
-        href: "https://www.udemy.com/course/curso-front-end-developer-vue/?couponCode=2024JUNHO",
+        href: "https://bit.ly/CursoVue3-Last-june2024"
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "7 hours",
@@ -33,7 +33,7 @@ const headerMenu = [
     {
       img: baseURL + "/images/courses/git-github.png",
       title: "Git e Github para Desenvolvedores - Básico ao Avançado",
-      href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=JUNHO2024",
+      href: "https://bit.ly/CursoGit-2024-last-june",
       author: "Yuri Marcon",
       rate: 4.9,
       duration: "4,5 hours",
