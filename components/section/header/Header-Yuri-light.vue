@@ -44,7 +44,7 @@ const drawer = ref(null);
             </ul>
           </div>
           <!-- login-regiter -->
-           <router-link :to="baseURL + '/contact'" class="text-decoration-none">
+           <router-link to="/contact" class="text-decoration-none">
              <v-btn
                class="btn px-6 bg-primary ml-2 d-md-flex d-none"
                flat
@@ -83,7 +83,7 @@ const drawer = ref(null);
             }}</NuxtLink>
           </li>
           <li class="nav-item mx-3 mt-4 ">
-            <router-link :to="baseURL + '/contact'" class="text-decoration-none">
+            <router-link to='/contact' class="text-decoration-none">
                 <v-btn
                   class="btn bg-primary-light "
                   flat block
