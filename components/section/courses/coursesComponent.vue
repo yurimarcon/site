@@ -44,12 +44,24 @@ import {Courses} from '@/data/YuriData'
                   <v-rating
                     :model-value="card.rate"
                     active-color="warning"
-                    size="x-small"
+                    color="warning"
+                    size="small"
                     half-increments
                     readonly
                   ></v-rating>
                   <div class="text-grey ms-4">
                     {{card.rate}}
+                  </div>
+                  
+                  <div class="ml-2 font-weight-medium font-18">
+                    CUPOM:
+                    <v-chip 
+                    class="ma-2 text-decoration-line-through font-weight-black" 
+                    color="error" 
+                    label
+                    >
+                      {{card.cupom}}
+                    </v-chip>
                   </div>
 
                   <div class="mt-1">
@@ -65,8 +77,7 @@ import {Courses} from '@/data/YuriData'
                       {{card.price}}
                     </v-btn>
                   </div>
-                </v-row>
-        
+                </v-row>        
               </v-card-text>
             </v-card>
           </v-col>

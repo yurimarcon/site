@@ -4,7 +4,7 @@ import {Testimonials} from '@/data/YuriData';
 </script>
 <template>
   <div>
-    <div class="testimonial-component mini-spacer bg-extra-light">
+    <div class="testimonial-component mini-spacer">
       <v-container>
         <!-- -----------------------------------------------
             Start Testimonial Text

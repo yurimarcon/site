@@ -4,7 +4,7 @@ import {socialMedias} from '@/data/YuriData';
 
 <template>
   <div>
-    <div class="feature2-component mini-spacer bg-extra-light">
+    <div class="feature2-component mini-spacer">
       <v-container>
         <!-- -----------------------------------------------
             Start Feature 2 Text
@@ -45,7 +45,7 @@ import {socialMedias} from '@/data/YuriData';
                   <v-card-text>
                     <div class="d-flex align-center pt-5 pl-2 pb-4">
                       <v-row>
-                        <v-col cols="12" sm="3">
+                        <v-col cols="3" sm="3" md="3" class="mx-auto">
                           <img
                             :src="card.img"
                             class="img-fluid rounded"

@@ -1,23 +1,13 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { headerMenu } from "@/data/YuriData";
+import { baseURL, headerMenu } from "@/data/YuriData";
+import ChoseTheme from "@/components/shared/choseTheme.vue"
 const drawer = ref(null);
 
-
-import { useTheme } from 'vuetify'
-
-const theme = useTheme()
-
-function toggleTheme () {
-  theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
-}
 </script>
 
 <template>
   <div>
-    <!-- -----------------------------------------------
-          Start Header
-    ----------------------------------------------- -->
     <v-app-bar
       app
       flat
@@ -25,9 +15,10 @@ function toggleTheme () {
     >
       <v-container class="py-0 fill-height">
         <v-toolbar>
-          <!-- Logo -->
+          
           <div class="logo">
             <!-- <LcLogoPurpleLogo /> -->
+            <ChoseTheme/>
           </div>
           <!-- Desktop view Navigation -->
           <div
@@ -35,6 +26,7 @@ function toggleTheme () {
             v-bind:class="[isActive ? 'd-block' : '']"
             @click="isActive = !isActive"
           >
+
             <ul class="navbar-nav d-flex" min-height="auto">
               <li
                 class="nav-item"
@@ -52,21 +44,23 @@ function toggleTheme () {
             </ul>
           </div>
           <!-- login-regiter -->
-          <a href="/site/contact" class="text-decoration-none">
-           <v-btn
-             class="btn px-6 bg-primary ml-2 d-md-flex d-none"
-             flat
-           >
-               Contatooo
-           </v-btn>
-         </a>
+           <router-link :to="baseURL + '/contact'" class="text-decoration-none">
+             <v-btn
+               class="btn px-6 bg-primary ml-2 d-md-flex d-none"
+               flat
+             >
+                 Contato
+             </v-btn>
+           </router-link>
+          
           <v-app-bar-nav-icon
             width="30"
             class="d-md-none d-sm-flex drawer-icon ml-auto  mr-0"
             @click.stop="drawer = !drawer"
           ></v-app-bar-nav-icon>
+
         </v-toolbar>
-      </v-container>
+      </v-container>      
     </v-app-bar>
       </div>
     <!-- -----------------------------------------------
@@ -89,7 +83,7 @@ function toggleTheme () {
             }}</NuxtLink>
           </li>
           <li class="nav-item mx-3 mt-4 ">
-            <a href="/site/contact" class="text-decoration-none">
+            <router-link :to="baseURL + '/contact'" class="text-decoration-none">
                 <v-btn
                   class="btn bg-primary-light "
                   flat block
@@ -98,7 +92,7 @@ function toggleTheme () {
                 >
                   Contato
                 </v-btn>
-            </a>
+            </router-link>
           </li>  
         </ul>
       </div>

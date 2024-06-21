@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { baseURL } from "./data/YuriData";
+
 export default defineNuxtConfig({
   ssr: false,
   typescript: {
@@ -21,17 +23,17 @@ export default defineNuxtConfig({
   devServerHandlers: [],
   hooks: {
   },
-  // target: 'static',
-  // router: {
-  //   base: '/site/'
-  // },
-  // app: {
-  //   baseURL: '/site/',
-  // },
-  // runtimeConfig: {
-  //   public: {
-  //     baseURL: '/site/',
-  //   },
-  // },
-  // baseUrl: '/site/'
+  target: 'static',
+  router: {
+    base: baseURL+'/'
+  },
+  app: {
+    baseURL: baseURL+'/',
+  },
+  runtimeConfig: {
+    public: {
+      baseURL: baseURL+'/',
+    },
+  },
+  baseUrl: baseURL+'/'
 })
