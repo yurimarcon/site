@@ -21,7 +21,7 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
-        href: "https://bit.ly/CursoVue3-Last-june2024"
+        href: "https://bit.ly/CursoVue3-Last-june2024",
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "7 hours",
