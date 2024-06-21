@@ -21,19 +21,19 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
-        href: "https://www.udemy.com/course/curso-front-end-developer-vue/?referralCode=0851F9D9DED62D34989A",
+        href: "https://www.udemy.com/course/curso-front-end-developer-vue/?couponCode=2024JUNHO",
         author: "Yuri Marcon",
         rate: 4.8,
         duration: "7 hours",
         lessons: "59",
         price: "R$189,90",
         promotePrice: "R$24,90",
-        cupom: "aeee"
+        cupom: "2024JUNHO"
     },
     {
         img: baseURL + "/images/courses/git-github.png",
         title: "Git e Github para Desenvolvedores - Básico ao Avançado",
-        href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=",
+        href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=JUNHO2024",
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "4,5 hours",
