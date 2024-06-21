@@ -124,7 +124,7 @@ const headerMenu = [
 
   const socialMedias =[
     {
-      title: "Compartilho alguns contaúdos no YouTube.",
+      title: "Compartilho alguns conteúdos no YouTube.",
       img: "https://cdn-icons-png.flaticon.com/512/1076/1076995.png",
       href: "https://www.youtube.com/channel/UCtGTyjWw15xNi_dcQHEiZuA"
     },
