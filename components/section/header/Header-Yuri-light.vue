@@ -1,7 +1,7 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from "vue";
 import { baseURL, headerMenu } from "@/data/YuriData";
-import ChoseTheme from "@/components/shared/choseTheme.vue"
+import ChoseTheme from "@/components/shared/chooseTheme.vue"
 const drawer = ref(null);
 
 </script>

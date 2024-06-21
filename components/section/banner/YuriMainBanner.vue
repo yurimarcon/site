@@ -1,9 +1,13 @@
+<script setup>
+import { useTheme } from 'vuetify'
+  
+const theme = useTheme()
+
+</script>
+
 <template>
     <div class="banner-wrapper">
       <v-container>
-        <!-- -----------------------------------------------
-              Start Banner
-          ----------------------------------------------- -->
         <v-row justify="center">
           <v-col cols="12" sm="7" lg="6" class="d-flex align-center">
             <div class="text-sm-left text-center">
@@ -14,26 +18,16 @@
                 Amplie seus conhecimentos e cresça profissionalmente!!!
               </h4>
               <div class="mt-md-16 mt-10 d-sm-flex d-block">
-                <v-btn
-                  color="error"
-                  class="mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
-                  size="large"
-                  flat
-                >
-                   <NuxtLink to="/courses" class="text-decoration-none text-white">
-                    Cursos
-                   </NuxtLink>
-                </v-btn>
-                <!-- <v-btn
-                  size="large"
-                  to="/about"
-                  class="btn-custom-md d-sm-flex d-block"
-                  variant="outlined"
-                  color="white"
-                  flat
-                >
-                  Sobre
-                </v-btn> -->
+                <NuxtLink to="/courses" class="text-decoration-none text-white">
+                  <v-btn
+                    :color="theme.global.current.value.dark ? 'primary' : 'error'"
+                    class="mr-0 mr-sm-5 mb-5 mb-sm-0 btn-custom-md d-sm-flex d-block btn-100"
+                    size="large"
+                    flat
+                  >
+                      Cursos
+                  </v-btn>
+                </NuxtLink>
               </div>
             </div>
           </v-col>
@@ -44,10 +38,6 @@
             />
           </v-col>
         </v-row>
-  
-        <!-- -----------------------------------------------
-              End Banner
-          ----------------------------------------------- -->
       </v-container>
     </div>
   </template>

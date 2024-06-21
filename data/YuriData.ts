@@ -23,7 +23,7 @@ const headerMenu = [
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
         href: "https://www.udemy.com/course/curso-front-end-developer-vue/?couponCode=2024JUNHO",
         author: "Yuri Marcon",
-        rate: 4.8,
+        rate: 4.9,
         duration: "7 hours",
         lessons: "59",
         price: "R$189,90",
@@ -31,18 +31,54 @@ const headerMenu = [
         cupom: "2024JUNHO"
     },
     {
-        img: baseURL + "/images/courses/git-github.png",
-        title: "Git e Github para Desenvolvedores - Básico ao Avançado",
-        href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=JUNHO2024",
-        author: "Yuri Marcon",
-        rate: 4.9,
-        duration: "4,5 hours",
-        lessons: "77",
-        price: "R$189,90",
-        promotePrice: "R$24,90",
-        cupom: "JUNHO2024"
+      img: baseURL + "/images/courses/git-github.png",
+      title: "Git e Github para Desenvolvedores - Básico ao Avançado",
+      href: "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?couponCode=JUNHO2024",
+      author: "Yuri Marcon",
+      rate: 4.9,
+      duration: "4,5 hours",
+      lessons: "77",
+      price: "R$189,90",
+      promotePrice: "R$24,90",
+      cupom: "JUNHO2024"
     },
-  ];
+    {
+        img: "https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png",
+        title: "Desenvolvimento com Vue 3 + Vite - Projeto PokeVite",
+        href: "https://www.youtube.com/watch?v=JWEhN12bW8w&list=PLygIEirBzJi64nSpsN1S6varBLU0HckAF",
+        author: "Yuri Marcon",
+        rate: 4.5,
+        duration: "2,5 hours",
+        lessons: "19",
+        price: "R$89,90",
+        promotePrice: "Free!!!",
+        cupom: ""
+    },
+    {
+      img: "https://raw.githubusercontent.com/yurimarcon/api-node-sqlite/main/docs/tumb.png",
+      title: "Desenvolvendo API CRUD com Node, expres e Sqlite",
+      href: "https://www.youtube.com/watch?v=yEpiT-N2DUc&list=PLygIEirBzJi4lTC-5nzfhEyxuKq2y1uiR",
+      author: "Yuri Marcon",
+      rate: 4.5,
+      duration: "2,5 hours",
+      lessons: "11",
+      price: "R$89,90",
+      promotePrice: "Free!!!",
+      cupom: ""
+  },
+  {
+    img: "https://user-images.githubusercontent.com/44410208/127400712-2850ba05-ddaa-42ba-ab00-2ac625b168ec.png",
+    title: "Curso Vue 2 & Vuetify 2 - Projeto lista de tarefas",
+    href: "https://www.youtube.com/watch?v=yEpiT-N2DUc&list=PLygIEirBzJi4lTC-5nzfhEyxuKq2y1uiR",
+    author: "Yuri Marcon",
+    rate: 4.5,
+    duration: "2,5 hours",
+    lessons: "11",
+    price: "R$89,90",
+    promotePrice: "Free!!!",
+    cupom: ""
+  },
+];
 
   const Testimonials = [
     {

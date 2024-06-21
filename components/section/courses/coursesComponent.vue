@@ -29,6 +29,7 @@ import {Courses} from '@/data/YuriData'
             class="portfolio-card overflow-hidden card-shadow"
             :href="card.href"
             target="_blank"
+            min-height="450"
             >
               <div class="portfolio-img">
                 <img :src="card.img" class="img-fluid" :alt="card.img" />
@@ -53,7 +54,9 @@ import {Courses} from '@/data/YuriData'
                     {{card.rate}}
                   </div>
                   
-                  <div class="ml-2 font-weight-medium font-18">
+                  <div
+                  v-if="card.cupom" 
+                  class="ml-2 font-weight-medium font-18">
                     CUPOM:
                     <v-chip 
                     class="ma-2 text-decoration-line-through font-weight-black" 
@@ -63,6 +66,7 @@ import {Courses} from '@/data/YuriData'
                       {{card.cupom}}
                     </v-chip>
                   </div>
+                  <v-spacer v-else class="my-14"></v-spacer>
 
                   <div class="mt-1">
                     <v-btn 
