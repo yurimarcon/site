@@ -69,7 +69,7 @@ const drawer = ref(null);
 
     <!----sidebar menu drawer start----->
     <div class="nav1">
-    <v-navigation-drawer color="white" v-model="drawer" temporary>
+    <v-navigation-drawer v-model="drawer" temporary>
       <div
         class="navigation"
         style="margin-top: 100px;"
