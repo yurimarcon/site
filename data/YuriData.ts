@@ -33,7 +33,7 @@ const headerMenu = [
     {
       img: baseURL + "/images/courses/git-github.png",
       title: "Git e Github para Desenvolvedores - Básico ao Avançado",
-      href: "https://bit.ly/CursoGit-2024-last-june",
+      href: "https://bit.ly/git-august-2024",
       author: "Yuri Marcon",
       rate: 4.9,
       duration: "4,5 hours",
