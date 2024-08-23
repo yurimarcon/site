@@ -28,7 +28,7 @@ const headerMenu = [
         lessons: "59",
         price: "R$189,90",
         promotePrice: "R$24,90",
-        cupom: "2024JUNHO"
+        cupom: "AGOSTO2024"
     },
     {
       img: baseURL + "/images/courses/git-github.png",
@@ -40,7 +40,7 @@ const headerMenu = [
       lessons: "77",
       price: "R$189,90",
       promotePrice: "R$24,90",
-      cupom: "JUNHO2024"
+      cupom: "AGOSTO2024"
     },
     {
         img: "https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png",
