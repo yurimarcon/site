@@ -12,7 +12,7 @@ import {Courses} from '@/data/YuriData'
                 Meus cursos
               </h2>
               <p class="text-muted">
-                Comprando os cursos pelo link abaixo, você ajudará muito esse projeto!
+                Conheça meus cursos gratuitos e pagos a preços acessíveis. Aprenda no seu ritmo!
               </p>
             </div>
           </v-col>
