@@ -21,26 +21,26 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
-        href: "https://bit.ly/CursoVue3-Last-june2024",
+        href: "https://bit.ly/Vue3-september-2024",
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "7 hours",
         lessons: "59",
         price: "R$189,90",
         promotePrice: "R$24,90",
-        cupom: "AGOSTO2024"
+        cupom: "2024-SEPTEMBER"
     },
     {
       img: baseURL + "/images/courses/git-github.png",
       title: "Git e Github para Desenvolvedores - Básico ao Avançado",
-      href: "https://bit.ly/git-august-2024",
+      href: "https://bit.ly/git-september-2024",
       author: "Yuri Marcon",
       rate: 4.9,
       duration: "4,5 hours",
       lessons: "77",
       price: "R$189,90",
       promotePrice: "R$24,90",
-      cupom: "AGOSTO2024"
+      cupom: "2024-SEPTEMBER"
     },
     {
         img: "https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png",
@@ -78,6 +78,18 @@ const headerMenu = [
     promotePrice: "Free!!!",
     cupom: ""
   },
+  {
+    img: baseURL + "/images/courses/vue-vuetify.png",
+    title: "Learn Vue3, Vuetify3, Pinia and Bootstrap - With 3 Projects",
+    href: "https://bit.ly/Vue3-en-september-2024",
+    author: "Yuri Marcon",
+    rate: 4.9,
+    duration: "7 hours",
+    lessons: "59",
+    price: "U$39,90",
+    promotePrice: "U$19,90",
+    cupom: "2024-SEPTEMBER"
+},
 ];
 
   const Testimonials = [
