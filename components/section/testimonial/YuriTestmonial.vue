@@ -33,7 +33,7 @@ import {Testimonials} from '@/data/YuriData';
         <v-row class="mt-13" justify="center">
           <v-col cols="12" md="4" sm="6" v-for="card in Testimonials" :key="card.name">
             <v-card class="card-shadow" min-height="220">
-              <v-card-text class="pa-sm-10 pa-5" style="height: 130px;">
+              <v-card-text class="pa-sm-10 pa-5" style="height: 180px;">
                 <p class="text-body-1 mb-8 text-dark">“{{ card.testimonial }}”</p>
               </v-card-text>
               <v-card-actions class="pl-10">

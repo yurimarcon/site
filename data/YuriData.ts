@@ -1,6 +1,6 @@
 
-const baseURL = "/site"
-// const baseURL = ""
+// const baseURL = "/site"
+const baseURL = ""
 
 const headerMenu = [
     {
@@ -124,6 +124,56 @@ const headerMenu = [
       testimonial:
         "Parabéns Professor, bem explicativo! Estou aprendendo bastante.",
       name: "EDUARDO",
+      socialicon: [
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+      ],
+    },
+    {
+      img: baseURL + "/images/courses/user.png",
+      testimonial:
+        "Ótimo curso. Por enquanto estou gostando muito.",
+      name: "LUCAS",
+      socialicon: [
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+      ],
+    },
+    {
+      img: baseURL + "/images/courses/user.png",
+      testimonial:
+        "O curso contempla muita coisa, desde a criação do projeto, componentes do vue, até a publicação do projeto no webserver. Indico 100%",
+      name: "LEONARDO",
+      socialicon: [
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+      ],
+    },
+    {
+      img: baseURL + "/images/courses/user.png",
+      testimonial: "Muito bom o curso, superou todas as expectativas. Amei o dinamismo, os plugins mostrados a forma como as aulas progridem, professor muito bom e paciente, explica os detalhes e deixa claro todas as funcionalidades.",
+      name: "LUAN",
+      socialicon: [
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+        { icon: "mdi mdi-star text-error" },
+      ],
+    },
+    {
+      img: baseURL + "/images/courses/user.png",
+      testimonial: "Excelente professor. Conseguir entender até questões mais complexas com ele explicando. Além disso, manteve o conteúdo rico e bem didático durante o curso todo.",
+      name: "WAGNER",
       socialicon: [
         { icon: "mdi mdi-star text-error" },
         { icon: "mdi mdi-star text-error" },
