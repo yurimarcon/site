@@ -79,7 +79,7 @@ const headerMenu = [
     cupom: ""
   },
   {
-    img: baseURL + "/images/courses/vue-vuetify.png",
+    img: baseURL + "/images/courses/vue-vuetify-en.png",
     title: "Learn Vue3, Vuetify3, Pinia and Bootstrap - With 3 Projects",
     href: "https://bit.ly/Vue3-en-september-2024",
     author: "Yuri Marcon",
