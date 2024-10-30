@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 
 <template>
@@ -35,19 +34,23 @@
         <v-card-media>
           <!-- Video Player -->
           <v-responsive :aspect-ratio="16 / 9">
-            <!-- <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/Oih5cphl3fo?si=TT5C1orymiXnqEHI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe> -->
-            <video 
+            <video
+            class="d-none d-sm-block"
             width="560"
             height="315"
+            controls
+            >
+                <source 
+                
+                    src="/images/Apresentação.mp4"
+                    type="video/mp4" 
+                    />
+                Your browser does not support the video tag.
+            </video>
+            <video
+            class="d-block d-sm-none"
+            width="360"
+            height="215"
             controls
             >
                 <source 
