@@ -26,7 +26,8 @@
     </v-col>
     <v-col cols="12" sm="4" id="description-develop-projects"> 
         <div class="blur-background"></div>
-        <v-img class="mt-md-4" src="/images/rocket.avif"/>
+        <!-- <v-img class="mt-md-4" src="/images/rocket.avif"/> -->
+        <v-img class="mt-md-4" src="https://raw.githubusercontent.com/yurimarcon/site/refs/heads/release/public/images/rocket.avif"/>
     </v-col>
   </v-row>
 </template>
