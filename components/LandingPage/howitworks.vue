@@ -31,7 +31,7 @@
       lg="6"
       class="d-flex justify-center flex-column text-center"
     >
-      <v-card class="mx-auto rounded-xl">
+      <v-card class="mx-auto rounded-lg">
         <v-card-media>
           <!-- Video Player -->
           <v-responsive :aspect-ratio="16 / 9">
@@ -51,7 +51,8 @@
             controls
             >
                 <source 
-                    src="/images/Apresentação.mp4" 
+                
+                    src="/images/Apresentação.mp4"
                     type="video/mp4" 
                     />
                 Your browser does not support the video tag.
