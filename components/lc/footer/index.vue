@@ -69,14 +69,14 @@
       </v-row>
       <div class="footer-bottom-bar mt-sm-5 mt-0 font-14 ml-sm-0 ml-n3">
         <div class="d-block d-sm-flex align-center">
-          <p class="text-muted mb-sm-0 mb-3">
+          <!-- <p class="text-muted mb-sm-0 mb-3">
             Forked by
             <a href="https://www.wrappixel.com/" class="link">wrappixel.com</a>
-          </p>
+          </p> -->
 
           <div class="ml-auto">
             <div class="d-sm-flex align-center">
-              <a href="/" class="link px-sm-4 ps-0">Updated with ♥️ by Yuri Marcon</a>
+              <a href="/" class="link px-sm-4 ps-0">Feito com ♥️ por Yuri Marcon</a>
             </div>
           </div>
         </div>

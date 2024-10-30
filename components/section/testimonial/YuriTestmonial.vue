@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import {Testimonials} from '@/data/YuriData';
 </script>
 <template>
@@ -30,11 +29,13 @@ import {Testimonials} from '@/data/YuriData';
         <!-- -----------------------------------------------
             Start Testimonial
         ----------------------------------------------- -->
-        <v-row class="mt-13" justify="center">
+        <v-row class="mt-13">
           <v-col cols="12" md="4" sm="6" v-for="card in Testimonials" :key="card.name">
-            <v-card class="card-shadow" min-height="220">
+            <v-card class="card-shadow rounded-lg" min-height="220">
               <v-card-text class="pa-sm-10 pa-5" style="height: 180px;">
-                <p class="text-body-1 mb-8 text-dark">“{{ card.testimonial }}”</p>
+                <p class="text-body-1 mb-8 text-dark" 
+                style="color: rgba(var(--v-theme-on-background), var(--v-medium-emphasis-opacity)) !important;"
+                >“{{ card.testimonial }}”</p>
               </v-card-text>
               <v-card-actions class="pl-10">
                 <div class="d-flex align-center">

@@ -3,6 +3,7 @@ import { baseURL } from "./data/YuriData";
 
 export default defineNuxtConfig({
   ssr: false,
+  css: ['~/assets/main.scss'],
   typescript: {
     shim: false
   },

@@ -1,6 +1,6 @@
 
-const baseURL = "/site"
-// const baseURL = ""
+// const baseURL = "/site"
+const baseURL = ""
 
 const headerMenu = [
     {
@@ -12,8 +12,8 @@ const headerMenu = [
     //   href: "/about",
     // },
     {
-        title: "Cursos",
-        href: "/courses",
+        title: "Contato",
+        href: "/contact",
     }
   ];
   

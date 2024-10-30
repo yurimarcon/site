@@ -26,7 +26,7 @@ import {Courses} from '@/data/YuriData'
             :key="card.title"
           >
             <v-card 
-            class="portfolio-card overflow-hidden card-shadow"
+            class="portfolio-card overflow-hidden card-shadow rounded-lg"
             :href="card.href"
             target="_blank"
             min-height="450"
@@ -59,7 +59,7 @@ import {Courses} from '@/data/YuriData'
                   class="ml-2 font-weight-medium font-18">
                     CUPOM:
                     <v-chip 
-                    class="ma-2 text-decoration-line-through font-weight-black" 
+                    class="ma-2 text-decoration-line-through font-weight-black rounded-pill" 
                     color="error" 
                     label
                     >
@@ -70,13 +70,13 @@ import {Courses} from '@/data/YuriData'
 
                   <div class="mt-1">
                     <v-btn 
-                    class="bg-primary mr-3 text-white font-weight-black" 
+                    class="bg-primary mr-3 text-white font-weight-black rounded-pill" 
                     elevation="2" >
                       {{card.promotePrice}}
                     </v-btn>
                     <v-btn 
                     variant="tonal" 
-                    class="text-disabled text-decoration-line-through font-weight-black"
+                    class="text-disabled text-decoration-line-through font-weight-black rounded-pill"
                     > 
                       {{card.price}}
                     </v-btn>

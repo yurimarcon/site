@@ -44,12 +44,12 @@ const drawer = ref(null);
             </ul>
           </div>
           <!-- login-regiter -->
-           <router-link to="/contact" class="text-decoration-none">
+           <router-link to="/courses" class="text-decoration-none">
              <v-btn
-               class="btn px-6 bg-primary ml-2 d-md-flex d-none"
+               class="btn px-6 bg-primary ml-2 d-md-flex d-none rounded-pill"
                flat
              >
-                 Contato
+                 Cursos
              </v-btn>
            </router-link>
           

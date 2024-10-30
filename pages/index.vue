@@ -1,15 +1,15 @@
-<script setup lang="ts">
-import { ref } from 'vue';
-import MainBanner from '@/components/section/banner/YuriMainBanner.vue';
+<script setup>
+ 
 </script>
 
 <template>
-  <div>
-    <!-------Banner-------->
-    <MainBanner />
-    <!-------All Components-------->
-    <!-- <AllCustomComponents/> -->
-    <!----Commingsoon ----->
-    <!-- <CommingSoon/> -->
-  </div>
+  <v-container>
+
+    <LandingPageMainSection/>
+    <v-divider id="saiba-mais"/>
+    <LandingPageHowitworks/>
+    <v-divider/>
+    <LandingPageDevelopProjects/>
+
+  </v-container>
 </template>

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 
 // import Header from '@/components/section/header/Header-Yuri.vue';
-import Header from '@/components/section/header/Header-Yuri-light.vue';
+// import Header from '@/components/section/header/Header-Yuri-light.vue';
 
 </script>
 
 <template>
   <v-app dark>
-    <Header/>
+    <SectionHeaderYuriLight/>
     <v-main>
       <slot />  
     </v-main>
