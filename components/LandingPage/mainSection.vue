@@ -44,7 +44,7 @@ onMounted(() => {
 <template>
   <v-row dense id="description-main">
     <div class="blur-background"></div> <!-- Div para o blur de fundo -->
-    <v-col cols="12" md="8" >
+    <v-col cols="12" sm="7" lg="8" >
       <div class="w-100 w-md-75" >
         
         <h1 class="display-2 font-weight-bold h1-landing-page" style="font-size: 68px; margin-bottom: -20px">
@@ -75,9 +75,10 @@ onMounted(() => {
         >Saiba Mais</v-btn>
       </nuxt-link>
     </v-col>
-    <v-col cols="4" class="d-none d-md-block">
+    <v-col cols="12" sm="3" lg="4" class="d-none d-md-block">
       <!-- <v-img src="/images/form-banner/form-banner1.png" style="z-index: 2;" /> -->
-      <v-img src="/images/landingpage/banner-img.png" style="z-index: 2;" />
+      <!-- <v-img src="/images/landingpage/banner-img.png" style="z-index: 2;" /> -->
+      <v-img src="https://raw.githubusercontent.com/yurimarcon/site/refs/heads/release/public/images/landingpage/banner-img.png" style="z-index: 2;" />
     </v-col>
   </v-row>
 </template>
