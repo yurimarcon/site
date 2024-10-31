@@ -20,7 +20,7 @@ const headerMenu = [
   const Courses =[
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
-        title: "Desenvolvedor front-end  Vue 3 e Vuetify 3 - Com 3 Projetos",
+        title: "Curso completo Vue JS 3, Vuetify, Pinia, Vue Router e mais",
         href: "https://bit.ly/Vue3-september-2024",
         author: "Yuri Marcon",
         rate: 4.9,
@@ -32,7 +32,7 @@ const headerMenu = [
     },
     {
       img: baseURL + "/images/courses/git-github.png",
-      title: "Git e Github para Desenvolvedores - Básico ao Avançado",
+      title: "Curso completo de Git e GitHub - Básico ao Avançado",
       href: "https://bit.ly/git-september-2024",
       author: "Yuri Marcon",
       rate: 4.9,
@@ -80,7 +80,7 @@ const headerMenu = [
   },
   {
     img: baseURL + "/images/courses/vue-vuetify-en.png",
-    title: "Learn Vue3, Vuetify3, Pinia and Bootstrap - With 3 Projects",
+    title: "Complete course Vue JS 3, Vuetify, Pinia, Vue Router and more",
     href: "https://bit.ly/Vue3-en-september-2024",
     author: "Yuri Marcon",
     rate: 4.9,
