@@ -1,12 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { baseURL } from "./data/YuriData";
 
+
 export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/main.scss'],
-  typescript: {
+    typescript: {
     shim: false
   },
+  plugins: [{ src: '~/plugins/gtag.js', mode: 'client' }],
   build: {
     transpile: ["vuetify"],
   },
