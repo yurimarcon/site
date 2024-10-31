@@ -1,6 +1,6 @@
 
-const baseURL = "/site"
-// const baseURL = ""
+// const baseURL = "/site"
+const baseURL = ""
 
 const headerMenu = [
     {

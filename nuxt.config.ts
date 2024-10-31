@@ -5,10 +5,13 @@ import { baseURL } from "./data/YuriData";
 export default defineNuxtConfig({
   ssr: false,
   css: ['~/assets/main.scss'],
-    typescript: {
+  typescript: {
     shim: false
   },
-  plugins: [{ src: '~/plugins/gtag.js', mode: 'client' }],
+  // plugins: [{ src: '~/plugins/gtag.js', mode: 'client' }],
+  // router: {
+  //   middleware: 'analytics'
+  // },
   build: {
     transpile: ["vuetify"],
   },
