@@ -40,6 +40,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseURL: baseURL+'/',
+      GTAGID: 'G-REGX3RBWCM'
     },
   },
   baseUrl: baseURL+'/'
