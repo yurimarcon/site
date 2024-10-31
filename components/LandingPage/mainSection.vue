@@ -1,7 +1,7 @@
 <script setup>
 // Lista de palavras "Bem-vindo" em diferentes idiomas
 const languages = [
-  "Bora Codar?"
+  "Especialize-se"
 ];
 let tempText = ref("");
 
@@ -50,7 +50,7 @@ onMounted(() => {
         <h1 class="display-2 font-weight-bold h1-landing-page" style="font-size: 68px; margin-bottom: -20px">
           <span>{{ tempText }}</span>
         </h1>
-        <h1 class="text-h4 text-md-h2 font-weight-bold my-6 h1-landing-page">Com videoaludas objetivas</h1>
+        <h1 class="text-h3 text-md-h1 font-weight-bold my-6 h1-landing-page">Conquiste as melhores vagas</h1>
         <!-- <div class="text-body-1 text-medium-emphasis mb-10"> -->
         <div class="text-sm-h5 text-subtitle-1 text-medium-emphasis mt-4 mb-6">
           Domine habilidades de programação com cursos práticos e diretos para impulsionar sua carreira no desenvolvimento.

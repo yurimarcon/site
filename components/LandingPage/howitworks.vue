@@ -12,7 +12,7 @@
           Saiba mais
         </h1>
         <p class="text-sm-h5 text-subtitle-1 text-medium-emphasis mt-4 mb-6">
-          Conheça um pouco mais do meu trabalho assistindo o video curto que preparei para você.
+          Conheça um pouco mais sobre o meu trabalho assistindo um video curto que preparei para você.
         </p>
 
         <nuxt-link to="/courses">
