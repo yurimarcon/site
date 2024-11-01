@@ -48,7 +48,7 @@ export default defineNuxtConfig({
         { hid: 'og-title', property: 'og:title', content: 'Yuri Marcon Academy'},
         { hid: 'og-site_name', property: 'og:site_name', content: 'Yuri Marcon Academy'},
         { hid: 'og-desc', property: 'og:description', content: 'Conheça meus curos práticos e direto ao ponto.' },
-        { hid: 'og-image', property: 'og:image', content: '/images/courses/vue-vuetify.png' },
+        { hid: 'og-image', property: 'og:image', content: 'https://yurimarcon.github.io/site/images/courses/vue-vuetify.png' },
         { hid: 'og-image:type', property: 'og:image:type', content: 'image/png' },
         { hid: 'og-url', property: 'og:url', content: 'https://yurimarcon.github.io/site' }
       ],
