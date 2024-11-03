@@ -21,26 +21,26 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Curso completo Vue JS 3, Vuetify, Pinia, Vue Router e mais",
-        href: "https://bit.ly/vue-november-2024",
+        href: "https://bit.ly/vue-novembro-2024",
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "7 hours",
         lessons: "59",
         price: "R$189,90",
-        promotePrice: "R$37,90",
-        cupom: "2024-SEPTEMBER"
+        promotePrice: "R$24,90",
+        cupom: "NOVEMBRO-2024"
     },
     {
       img: baseURL + "/images/courses/git-github.png",
       title: "Curso completo de Git e GitHub - Básico ao Avançado",
-      href: "https://bit.ly/git-november-2024",
+      href: "https://bit.ly/git-novembro-2024",
       author: "Yuri Marcon",
       rate: 4.9,
       duration: "4,5 hours",
       lessons: "77",
       price: "R$189,90",
-      promotePrice: "R$37,90",
-      cupom: "2024-SEPTEMBER"
+      promotePrice: "R$24,90",
+      cupom: "NOVEMBRO-2024"
     },
     {
         img: "https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png",
