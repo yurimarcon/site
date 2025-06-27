@@ -21,7 +21,7 @@ const headerMenu = [
     {
         img: baseURL + "/images/courses/vue-vuetify.png",
         title: "Curso completo Vue JS 3, Vuetify, Pinia, Vue Router e mais",
-        href: "https://bit.ly/vue-novembro-2024",
+        href: "https://bit.ly/vue-julho-2025",
         author: "Yuri Marcon",
         rate: 4.9,
         duration: "7 hours",
@@ -33,7 +33,7 @@ const headerMenu = [
     {
       img: baseURL + "/images/courses/git-github.png",
       title: "Curso completo de Git e GitHub - Básico ao Avançado",
-      href: "https://bit.ly/git-novembro-2024",
+      href: "https://bit.ly/git-JULHO-2025",
       author: "Yuri Marcon",
       rate: 4.9,
       duration: "4,5 hours",
