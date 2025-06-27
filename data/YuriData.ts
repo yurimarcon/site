@@ -27,7 +27,7 @@ const headerMenu = [
         duration: "7 hours",
         lessons: "59",
         price: "R$189,90",
-        promotePrice: "R$24,90",
+        promotePrice: "R$25,90",
         cupom: "NOVEMBRO-2024"
     },
     {
@@ -39,7 +39,7 @@ const headerMenu = [
       duration: "4,5 hours",
       lessons: "77",
       price: "R$189,90",
-      promotePrice: "R$24,90",
+      promotePrice: "R$25,90",
       cupom: "NOVEMBRO-2024"
     },
     {
