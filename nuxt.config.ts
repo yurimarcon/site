@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { baseURL } from "./data/YuriData";
+
 
 
 export default defineNuxtConfig({
@@ -31,12 +31,17 @@ export default defineNuxtConfig({
   },
   target: 'static',
   router: {
-    base: baseURL+'/'
+    base: process.env.NUXT_PUBLIC_BASE_URL ? process.env.NUXT_PUBLIC_BASE_URL + '/' : '/',
   },
   app: {
-    baseURL: baseURL+'/',
+    baseURL: process.env.NUXT_PUBLIC_BASE_URL ? process.env.NUXT_PUBLIC_BASE_URL + '/' : '/',
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.NUXT_PUBLIC_BASE_URL || '',
+    }
+  },
       htmlAttrs:{
         lang:"pt-BR",
       },
@@ -59,9 +64,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      baseURL: baseURL+'/',
+      baseURL: process.env.NUXT_PUBLIC_BASE_URL || '',
       GTAGID: 'G-REGX3RBWCM'
     },
   },
-  baseUrl: baseURL+'/'
+  // baseUrl: baseURL+'/'
 })

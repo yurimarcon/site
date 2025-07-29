@@ -26,7 +26,7 @@ import {Courses} from '@/data/YuriData'
             :key="card.title"
           >
             <v-card 
-            class="portfolio-card overflow-hidden card-shadow rounded-lg"
+            class="portfolio-card overflow-hidden card-shadow rounded-lg border-card"
             :href="card.href"
             target="_blank"
             min-height="450"
@@ -90,3 +90,12 @@ import {Courses} from '@/data/YuriData'
     </div>
   </div>
 </template>
+
+<style scoped>
+.border-card {
+  background: linear-gradient(rgb(var(--v-theme-background)), rgb(var(--v-theme-background))) padding-box,
+    linear-gradient(300deg, rgb(0, 191, 143), rgb(117, 89, 255)) border-box !important;
+  border: 2px solid transparent !important;
+  color:rgba(var(--v-theme-on-background), var(--v-medium-emphasis-opacity)) !important;
+}
+</style>

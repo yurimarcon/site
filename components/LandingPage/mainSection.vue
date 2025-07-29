@@ -1,5 +1,4 @@
 <script setup>
-// Lista de palavras "Bem-vindo" em diferentes idiomas
 const languages = [
   "Especialize-se"
 ];

@@ -31,7 +31,7 @@ import {Testimonials} from '@/data/YuriData';
         ----------------------------------------------- -->
         <v-row class="mt-13">
           <v-col cols="12" md="4" sm="6" v-for="card in Testimonials" :key="card.name">
-            <v-card class="card-shadow rounded-lg" min-height="220">
+            <v-card class="card-shadow rounded-lg border-card" min-height="220">
               <v-card-text class="pa-sm-10 pa-5" style="height: 180px;">
                 <p class="text-body-1 mb-8 text-dark" 
                 style="color: rgba(var(--v-theme-on-background), var(--v-medium-emphasis-opacity)) !important;"
@@ -68,3 +68,12 @@ import {Testimonials} from '@/data/YuriData';
     </div>
   </div>
 </template>
+
+<style scoped>
+.border-card {
+  background: linear-gradient(rgb(var(--v-theme-background)), rgb(var(--v-theme-background))) padding-box,
+    linear-gradient(300deg, rgb(0, 191, 143), rgb(117, 89, 255)) border-box !important;
+  border: 2px solid transparent !important;
+  color:rgba(var(--v-theme-on-background), var(--v-medium-emphasis-opacity)) !important;
+}
+</style>

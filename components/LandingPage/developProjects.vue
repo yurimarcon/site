@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row class="mt-10">
     <v-col cols="12" sm="8" >
       <div class="w-100 w-md-75" >
         <h1 class="text-h4 text-md-h2 font-weight-bold my-6 mt-md-14 h1-landing-page">

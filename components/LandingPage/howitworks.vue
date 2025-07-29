@@ -1,4 +1,6 @@
 <script setup>
+import { useRuntimeConfig } from '#imports'
+const baseURL = useRuntimeConfig().public.baseURL || ''
 </script>
 
 <template>
@@ -33,7 +35,7 @@
       <v-card class="mx-auto rounded-lg">
         <v-card-media>
           <!-- Video Player -->
-          <v-responsive :aspect-ratio="16 / 9">
+          <v-responsive :aspect-ratio="16/9">
             <video
             class="d-none d-sm-block"
             width="560"
@@ -41,10 +43,9 @@
             controls
             >
                 <source 
-                
-                    src="/images/Apresentação.mp4"
+                    :src="`${baseURL}/images/Apresentação.mp4`"
                     type="video/mp4" 
-                    />
+                />
                 Your browser does not support the video tag.
             </video>
             <video
@@ -54,16 +55,15 @@
             controls
             >
                 <source 
-                
-                    src="/images/Apresentação.mp4"
+                    :src="`${baseURL}/images/Apresentação.mp4`"
                     type="video/mp4" 
-                    />
+                />
                 Your browser does not support the video tag.
             </video>
           </v-responsive>
         </v-card-media>
         <v-card-subtitle class="text-center">
-          <h3>Veja como funciona a plataforma</h3>
+          <h3>Uma breve apresentação</h3>
         </v-card-subtitle>
       </v-card>
     </v-col>

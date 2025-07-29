@@ -39,7 +39,7 @@ import {socialMedias} from '@/data/YuriData';
             v-for="card in socialMedias"
             :key="card.title"
           >
-            <v-card elevation="0">
+            <v-card class="border-card" elevation="0">
               <v-row>
                 <v-col cols="12" sm="8" class="py-0">
                   <v-card-text>
@@ -74,7 +74,8 @@ import {socialMedias} from '@/data/YuriData';
                   >
                     <v-btn
                       block
-                      class="linking bg-info feature2-action-btn mt-sm-0 mt-n5'"
+                      rounded="sm"
+                      class="linking bg-info feature2-action-btn mt-sm-0 mt-n5"
                     >
                       Clique me <i class="mdi mdi-arrow-right"></i>
                     </v-btn>
@@ -91,3 +92,12 @@ import {socialMedias} from '@/data/YuriData';
     </div>
   </div>
 </template>
+
+<style scoped>
+.border-card {
+  background: linear-gradient(rgb(var(--v-theme-background)), rgb(var(--v-theme-background))) padding-box,
+    linear-gradient(300deg, rgb(0, 191, 143), rgb(117, 89, 255)) border-box !important;
+  border: 2px solid transparent !important;
+  color:rgba(var(--v-theme-on-background), var(--v-medium-emphasis-opacity)) !important;
+}
+</style>
