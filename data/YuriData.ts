@@ -2,8 +2,7 @@
 
 import { useRuntimeConfig } from '#imports';
 
-// const baseURL = useRuntimeConfig().public.baseURL || "";
-const baseURL = "/site"
+const baseURL = useRuntimeConfig().public.baseURL || "";
 
 const headerMenu = [
     {
