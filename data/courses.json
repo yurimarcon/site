@@ -70,5 +70,17 @@
     "price": "U$39,90",
     "promotePrice": "U$19,90",
     "cupom": "AUGUST-2025"
+  },
+  {
+    "img": "/images/courses/git-github-en.png",
+    "title": "Git and GitHub complete course - From zero to hero",
+    "href": "https://www.udemy.com/course/git-e-github-para-desenvolvedores-basico-ao-avancado/?referralCode=5D7A06E90DE7ECA5C13A",
+    "author": "Yuri Marcon",
+    "rate": 4.9,
+    "duration": "4,5 hours",
+    "lessons": "59",
+    "price": "U$39,90",
+    "promotePrice": "U$19,90",
+    "cupom": "AUGUST-2025"
   }
 ]
